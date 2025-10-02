@@ -1,18 +1,64 @@
-## Getting Started
+# 📱 Project Java - Class iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyek ini adalah contoh sederhana pemrograman berorientasi objek (**OOP**) dalam bahasa Java, yang merepresentasikan sebuah objek **iPhone** dengan atribut dan perilaku (method).  
+Program membuat dua objek iPhone dengan spesifikasi berbeda, lalu memanggil method untuk menjalankan fungsinya.
 
-## Folder Structure
+## 🚀 Fitur
 
-The workspace contains two folders by default, where:
+-   Class `iPhone` dengan atribut:
+    -   `color` → warna iPhone
+    -   `storage` → kapasitas penyimpanan
+-   Method perilaku iPhone:
+    -   `nyala()` → menyalakan iPhone
+    -   `mati()` → mematikan iPhone
+    -   `berdering()` → iPhone berdering
+    -   `videoCall()` → melakukan video call
+-   Membuat **dua objek iPhone** (`iphone1` dan `iphone2`) dengan warna dan storage berbeda.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📂 Struktur Proyek
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```bash
+    ├───.vscode
+    ├───bin
+    ├───lib
+    └───src
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🖥️ Cara Compile & Run
 
-## Dependency Management
+1. Masuk ke folder proyek:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    ```bash
+    cd src
+    ```
+
+2. Compile proyek:
+
+    ```bash
+    javac App.java
+    ```
+
+3. Jalankan proyek:
+    ```bash
+    java App
+    ```
+
+## Output
+
+```bash
+iPhone warna Hitam menyala.
+iPhone warna Hitam berdering.
+iPhone warna Hitam videoCall.
+iPhone warna Hitam mati.
+
+iPhone warna Putih menyala.
+iPhone warna Putih berdering.
+iPhone warna Putih videoCall.
+iPhone warna Putih mati.
+```
+
+## 🛠️ Konsep OOP yang Digunakan
+
+-   **Class & Object** → `iPhone` sebagai class, `iphone1` & `iphone2` sebagai object.
+-   **Attribute (Field)** → `color`, `storage`.
+-   **Method (Behavior)** → aksi yang dapat dilakukan iPhone (`nyala`, `mati`, dll).
