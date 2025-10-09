@@ -34,6 +34,8 @@ Barang ke-2: Kopi
 
 ```
 
+----
+
 ### 💰 2. Program Kasir (`com.app.kasir`)
 ### 📂 File
 `Kasir.java`
@@ -67,6 +69,8 @@ Total   : 15000.0
 Terima Kasih Telah Berbelanja!
 ==========================
 ```
+
+----
 
 ### 🎓 3. Program Nilai (`com.app.nilai`)
 ### 📂 File
