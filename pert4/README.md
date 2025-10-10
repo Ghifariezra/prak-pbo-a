@@ -1,6 +1,10 @@
 # 🧑‍💻 Praktikum Java – Pertemuan 4
 
-## Package: `com.app.belanja`, `com.app.kasir`, `com.app.nilai`
+## Package: 
+- `com.pertemuan4.belanja`, 
+- `com.pertemuan4.kasir`, 
+- `com.pertemuan4.nilai`, 
+- `com.pertemuan4.todoList`
 
 # 📘 Deskripsi
 Pada pertemuan ke-4 ini, kita belajar membuat **program interaktif sederhana menggunakan Java** dengan konsep **input dari pengguna, perulangan, array, dan percabangan sederhana.**
@@ -8,9 +12,8 @@ Pada pertemuan ke-4 ini, kita belajar membuat **program interaktif sederhana men
 ----
 
 **Terdapat tiga program utama** yang dibuat dalam tiga package berbeda:
-### 🛒 1. Program Belanja (`com.app.belanja`)
-### 📂 File
-`Belanja.java`
+### 🛒 1. Program Belanja (`com.pertemuan4.belanja`)
+### 📂 File:  `Belanja.java`
 Program ini digunakan untuk mencatat daftar belanja pengguna.
 Pengguna dapat memasukkan nama barang satu per satu, dan ketika sudah selesai, cukup ketik "selesai" untuk menghentikan input.
 
@@ -36,9 +39,8 @@ Barang ke-2: Kopi
 
 ----
 
-### 💰 2. Program Kasir (`com.app.kasir`)
-### 📂 File
-`Kasir.java`
+### 💰 2. Program Kasir (`com.pertemuan4.kasir`)
+### 📂 File: `Kasir.java`
 Program ini mensimulasikan sistem kasir sederhana yang menghitung total harga pembelian berdasarkan harga satuan dan jumlah produk yang dibeli.
 
 ### ⚙️ Alur Program
@@ -72,9 +74,8 @@ Terima Kasih Telah Berbelanja!
 
 ----
 
-### 🎓 3. Program Nilai (`com.app.nilai`)
-### 📂 File
-`Nilai.java`
+### 🎓 3. Program Nilai (`com.pertemuan4.nilai`)
+### 📂 File: `Nilai.java`
 Program ini digunakan untuk menghitung rata-rata nilai mahasiswa berdasarkan jumlah mahasiswa yang ditentukan pengguna.
 
 ### ⚙️ Alur Program
@@ -96,4 +97,41 @@ Nilai mahasiswa ke-1: 80
 Nilai mahasiswa ke-2: 90
 Nilai mahasiswa ke-3: 85
 Rata-rata nilai: 85.0
+```
+
+----
+
+### ✅ 4. Program Todo List (`com.pertemuan4.todoList`)
+### 📂 File: `TodoList.java`
+Program ini digunakan untuk membuat dan mengelola daftar tugas harian (to-do list) secara interaktif.
+
+Pengguna dapat menambah, menampilkan, memperbarui, dan menghapus tugas dari daftar menggunakan menu berbasis angka.
+
+### ⚙️ Alur Program
+- Program menyediakan daftar tugas awal (dummy data).
+- Pengguna memilih menu:
+  1.  Tampilkan Daftar Tugas – Menampilkan semua tugas yang ada.
+  2.  Tambah Tugas – Menambahkan tugas baru ke daftar.
+  3.  Ubah Tugas – Mengedit isi tugas berdasarkan nomor urutnya.
+  4.  Hapus Tugas – Menghapus tugas tertentu berdasarkan nomor.
+  5.  Selesai – Mengakhiri program.
+
+```bash
+1. Tampilkan daftar tugas
+2. Tambah tugas
+3. Ubah tugas
+4. Hapus tugas
+5. Selesai
+Masukan pilihan: 1
+
+====================================
+        DAFTAR TUGAS HARI INI
+====================================
+1. Belajar Java
+2. Mengerjakan tugas kampus
+3. Membaca buku algoritma
+4. Olahraga pagi
+5. Merapikan file proyek
+====================================
+Total tugas: 5
 ```
