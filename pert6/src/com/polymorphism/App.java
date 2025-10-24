@@ -35,16 +35,15 @@ public class App {
                 * Child class: Lingkaran
         */
         BangunDatar persegi = new BangunDatar();
-        Lingkaran lingkaran = new Lingkaran(5);
+        BangunDatar lingkaran = new Lingkaran(5);
 
         System.out.println("================");
         System.out.println("Overriding");
         System.out.println("================");
+
         persegi.luas();
         persegi.keliling();
 
-        // lingkaran.luas();
-        // lingkaran.keliling();
         System.out.println("Luas Lingkaran: " + lingkaran.luas());
         System.out.println("Keliling Lingkaran: " + lingkaran.keliling());
     }
